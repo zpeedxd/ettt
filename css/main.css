@@ -1,0 +1,191 @@
+body{
+	background-attachment:fixed;
+	background-color:#c7c7c7;
+    font-family: 'Roboto', sans-serif;
+	font-size:15px;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color:white;
+	padding:10px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	background-color:#db7b2c;
+	color:white;
+}
+.navbar-dark .navbar-toggler{
+	float:right;
+	vertical-align:middle;
+}
+.temizle{
+	position:relative; 
+	height:10px; 
+	width:100%;
+	clear:both;
+}
+.temizle2{
+	position:relative; 
+	height:5px; 
+	width:100%;
+	clear:both;
+}
+.logo{
+	font-family: 'Fredoka One', cursive;
+	color:white;
+	text-decoration:none;
+}
+
+.hero-image {
+    /* The image used */
+    background-image: url("../img/head.jpg");
+    /* Set a specific height */
+    height: 430px;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position:top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+	border-radius: 11px 30px;
+}
+
+/* Place text in the middle of the image */
+.form-login{
+	position:relative;
+	background: linear-gradient(to bottom, rgb(2, 2, 20), rgba(148, 0, 20, 0.58) 65%);
+	border-radius: 15px 50px;
+	margin: auto;
+	padding-top:20px;
+	padding-bottom:20px;
+    max-width:400px;
+}
+.hero-text {
+	position:relative;
+    text-align:center;
+	padding-top:30px;
+    color: #fff;
+	text-shadow: 0 0 10px #000;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.kutu{
+	margin-bottom:10px;
+	background-color:#fdfdfd;
+}
+.kutuFooter{
+	margin-bottom:10px;
+	background-color:#140b70;
+	color:#fdfdfd;
+}
+.kutuFooter a{
+	color:#fdfdfd;
+}
+.kart{
+	min-height:180px;
+	background-image:url("../img/kart.png");
+	background-repeat:repeat-x;
+	background-position:bottom left;
+}
+.kart-content{
+	text-align:justify;
+}
+.main-content{
+	text-align:justify;
+}
+.content-reklam{
+	float:right;
+	margin-left:20px; 
+	margin-bottom:10px;
+	max-width:300px;
+}
+.sponsor-reklam{
+	position:relative; 
+	margin:2px; 
+	max-width:22%; 
+	height:auto;
+	border-radius: 10px;
+}
+.main-reklam{
+	width:100%;
+	text-align:center;
+	vertical-align:center;
+}
+.ok{
+	float:left;
+	vertical-align:top;
+	margin-right:5px;
+}
+.icon{
+	float:left;
+	vertical-align:top;
+	margin-right:5px;
+}
+.ara{
+	float:left;
+	margin-top:10px; 
+	text-align:left;
+	max-width:300px;
+}
+.araTxt{
+	position:relative;
+	height:36px;
+    width:74%;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:5px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+	vertical-align:top;
+}
+.araButton{
+	position:relative;
+    cursor: pointer;
+	height:36px;
+}
+.linkler{
+	text-align:left;
+}
+.imza{
+	text-align:right;
+}
+@media only screen and (max-width: 1170px) {
+	.content-reklam{
+		float:none;
+		margin:auto;
+		text-align:center;
+		margin-bottom:5px;
+		width:80%;
+	}
+	.imza{
+		text-align:left;
+	}
+	.form-login{
+		background:none;
+	}
+	.hero-text {
+		color:#fff;
+		text-shadow: 0 0 10px #000;
+	}
+}
+a{
+	outline:none;
+	text-decoration:none;
+	color:#333;
+}
+a:hover{
+	text-decoration:none;
+}
+/* FORM */
+.form-buton{
+	position:relative;
+	cursor:pointer;
+	bottom:1px;
+	background-color:#106387;
+}
+/* FORM */
+
